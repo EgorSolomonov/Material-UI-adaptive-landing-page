@@ -163,10 +163,13 @@ export const Center = () => {
             padding: "20px",
             borderRadius: "10px",
             transition: "1s all ease",
+            boxSizing: "border-box",
 
             "@media (max-width: 800px)": {
               width: "70%",
               left: "20%",
+              top: "5%",
+              height: "auto",
             },
 
             "@media (min-width: 1920px)": {
